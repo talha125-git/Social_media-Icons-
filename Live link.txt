@@ -2,3 +2,4 @@ Live link 1
 https://talha125-git.github.io/Social_media-Icons-/icon1.html
 
 Live Link 2
+https://talha125-git.github.io/Social_media-Icons-/icon2.html
