@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Icon 2</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0sNQd5h91BBN2DDiFOx9J1-J2gvkJbLS_L1buBlQuWA&s=10"
+        type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-       
         ul {
             display: flex;
             justify-content: center;
@@ -14,10 +17,12 @@
             list-style: none;
             padding: 0;
         }
+
         li {
             position: relative;
             margin: 0 10px;
         }
+
         a {
             position: relative;
             overflow: hidden;
@@ -32,21 +37,26 @@
             transition: all 0.3s ease-in-out;
             text-decoration: none;
         }
+
         a:hover {
             box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
         }
+
         a:hover .fa {
             color: #fff;
         }
+
         a .fa {
             position: relative;
             z-index: 1;
             font-size: 25px;
             transition: color 0.3s ease-in-out;
         }
+
         a span {
             display: none;
         }
+
         a .filled {
             position: absolute;
             bottom: 0;
@@ -57,21 +67,27 @@
             transition: all 0.4s ease-in-out;
             z-index: 0;
         }
+
         a:hover .filled {
             height: 100%;
         }
+
         a.facebook .filled {
             background-color: #3b5998;
         }
+
         a.youtube .filled {
             background-color: #ff0000;
         }
+
         a.twitter .filled {
             background-color: #1da1f2;
         }
+
         a.instagram .filled {
             background: linear-gradient(45deg, #405de6, #5b51db, #b33ab4, #c135b4, #e1306c, #fd1f1f);
         }
+
         .tooltip {
             position: absolute;
             bottom: -25px;
@@ -84,11 +100,13 @@
             font-size: 12px;
             display: none;
         }
-        a:hover + .tooltip {
+
+        a:hover+.tooltip {
             display: block;
         }
     </style>
 </head>
+
 <body>
     <ul>
         <li>
@@ -125,4 +143,5 @@
         </li>
     </ul>
 </body>
+
 </html>

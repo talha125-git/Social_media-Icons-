@@ -1,4 +1,4 @@
 git add .
-git commit -m "Add favicon 1  "
+git commit -m "Add favicon 2  "
 git push -u origin main
  
